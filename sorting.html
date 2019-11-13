@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="sorting.css">
+</head>
+<body>
+	<div class="sorting-container">
+		<div class="sorting-list">
+			<div class="sorting-list-item" data="price">
+				<div class="description">
+                    <span class="glyphicon glyphicon-usd"></span>
+                    <span>Fiyat</span>
+                </div>
+				<div class="direction">
+					<div id="up">
+						<span class="glyphicon glyphicon-arrow-up"></span>
+					</div>
+					<div id="down">
+						<span class="glyphicon glyphicon-arrow-down"></span>
+					</div>
+				</div>
+			</div>
+            <div class="sorting-list-item" data="popularity">
+				<div class="description">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span>Popülerlik</span>
+                </div>
+				<div class="direction">
+					<div id="up">
+						<span class="glyphicon glyphicon-arrow-up"></span>
+					</div>
+					<div id="down">
+						<span class="glyphicon glyphicon-arrow-down"></span>
+					</div>
+				</div>
+			</div>
+            <div class="sorting-list-item" data='alphabetic'>
+                <div class="description">
+                    <span class="glyphicon glyphicon-sort-by-alphabet"></span>
+                    <span>A'dan Z'ye</span>
+                </div>
+				<div class="direction">
+					<div id="up">
+						<span class="glyphicon glyphicon-arrow-up"></span>
+					</div>
+					<div id="down">
+						<span class="glyphicon glyphicon-arrow-down"></span>
+					</div>
+				</div>
+			</div>
+           <div class="listing-type" id="listing-type">
+				<div class="description">
+                    <span>Görünüm</span>
+                </div>
+				<div class="direction">
+					<div id="horizantal">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</div>
+					<div id="vertical">
+						<span class=" rotate90 glyphicon glyphicon-menu-hamburger"></span>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>  
+    <script src="sorting.js"></script>
+</body>	
+</html>
+
+
